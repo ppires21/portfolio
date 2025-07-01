@@ -1,5 +1,6 @@
 
 
-export const ContactSection = () {
+
+export const ContactSection = () => {
     return <section></section>;
 };
