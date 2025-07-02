@@ -32,8 +32,7 @@ const projects = [
         tags: ["HTML", "Bootstrap", "JavaScript", "Vue.JS", "GoogleAPI"],
         demoUrl: "#",
         githubUrl: "https://github.com/ppires21/GoHelp"
-    },
-
+    }
 ]
 
 export const ProjectsSection = () => {
