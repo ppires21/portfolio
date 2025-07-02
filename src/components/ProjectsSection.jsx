@@ -24,6 +24,16 @@ const projects = [
         githubUrl: "#"
     },
 
+    {
+        id: 3,
+        title: "Plataforma de Limpeza de Praias, Rios e Reflorestações",
+        description: "Descrição super descritiva da Plataforma de Limpeza de Praias, Rios e Reflorestações",
+        image: "/projects/project3.png",
+        tags: ["HTML", "Bootstrap", "JavaScript", "Vue.JS", "GoogleAPI"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/ppires21/GoHelp"
+    },
+
 ]
 
 export const ProjectsSection = () => {
