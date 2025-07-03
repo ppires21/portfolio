@@ -75,12 +75,6 @@ export const ContactForm = () => {
         <Send size={16} />
       </button>
 
-      {status === "success" && (
-        <p className="mt-4 text-green-600">Mensagem enviada com sucesso!</p>
-      )}
-      {status === "error" && (
-        <p className="mt-4 text-red-600">Ocorreu um erro. Tente novamente.</p>
-      )}
     </form>
   );
 };
