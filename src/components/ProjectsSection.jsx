@@ -21,7 +21,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Java", "Java SpringBoot", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/ppires21/MicroServices_Bookstore"
   },
 
   {
