@@ -20,7 +20,7 @@ export const AboutSection = () => {
                 </p>
 
                 <p className="text-muted-foreground">
-                    During my studies, I developed a strong interest in data analytics and backend development, as well as infrastructure and system architecture.
+                    During my studies, I developed a strong interest in Data Engineering and Backend Development, as well as Infrastructure and System Architecture.
                 </p>
 
 
