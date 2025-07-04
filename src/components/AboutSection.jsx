@@ -12,16 +12,18 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
                 <h3 className="text-2xl font-semibold">
-                    Passionate Web Developer & Tech Creator
+                    Passionate Developer and Tech Enthusiast
                 </h3>
 
                 <p className="text-muted-foreground">
-                    Texto textinho sobre mim no que eu me especializei e o que eu gosto de fazer no mundo da programação, anos de experiência. 
+                    I am a student of Information Systems Engineering and Management, passionate about software development and eager to explore multiple facets of technology while crafting innovative solutions.
                 </p>
 
                 <p className="text-muted-foreground">
-                    Que tecnologias eu usei e um bocado do meu histórico no mundo da programação.
+                    I grasp new concepts effortlessly and consistently strive for perfection in everything I undertake.
                 </p>
+
+
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                     <a href="#contact" className="cosmic-button">
@@ -40,38 +42,81 @@ export const AboutSection = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-6">
-                <div className=" gradient-border p-6 card-hover">
-                    <div className = "flex items-start gap-4">
-                        <div className= "p-3 rounded-full bg-primary/10">
-                            <Code className="h-6 w-6 text-primary"/>
-                        </div>
-                        <div className = "text-left">
-                            <h4 className="font-semibold text-lg">Web Development</h4>
-                            <p className="text-muted-foreground"> Creating responsive werbsites and web applications with modern frameworks. </p>
+
+                <div className="gradient-border px-6 py-3 card-hover">
+                    <div className="flex items-start gap-4">
+                        {/* Círculo 40×40, crop central e recorte em círculo */}
+                        <div
+                        className="
+                            w-10 h-10 
+                            rounded-full
+                            bg-center 
+                            bg-cover 
+                            bg-[url('/uminhoLogo.jpeg')]
+                            bg-primary/10
+                        "
+                        />
+                        <div className="text-left">
+                        <h4 className="font-semibold text-lg">Uminho - Master Degree </h4>
+                        <p className="text-muted-foreground">
+                            Information Systems Engineer.
+                        </p>
+                        <p className="text-muted-foreground">
+                            Final Grade: 17.
+                        </p>
                         </div>
                     </div>
                 </div>
 
-                <div className=" gradient-border p-6 card-hover">
-                    <div className = "flex items-start gap-4">
-                        <div className= "p-3 rounded-full bg-primary/10">
-                            <User className="h-6 w-6 text-primary"/>
-                        </div>
-                        <div className = "text-left">
-                            <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                            <p className="text-muted-foreground"> Designing intuitive user interfaces and seamless user experiences. </p>
+
+
+
+                <div className="gradient-border px-6 py-3 card-hover">
+                    <div className="flex items-start gap-4">
+                        {/* Círculo 40×40, crop central e recorte em círculo */}
+                        <div
+                        className="
+                            w-10 h-10 
+                            rounded-full
+                            bg-center 
+                            bg-cover 
+                            bg-[url('/uminhoLogo.jpeg')]
+                            bg-primary/10
+                        "
+                        />
+                        <div className="text-left">
+                        <h4 className="font-semibold text-lg">Uminho - Bachelor Degree </h4>
+                        <p className="text-muted-foreground">
+                            Information Systems Engineering and Management.
+                        </p>
+                        <p className="text-muted-foreground">
+                            Final Grade: 16.
+                        </p>
                         </div>
                     </div>
                 </div>
 
-                <div className=" gradient-border p-6 card-hover">
-                    <div className = "flex items-start gap-4">
-                        <div className= "p-3 rounded-full bg-primary/10">
-                            <Briefcase className="h-6 w-6 text-primary"/>
-                        </div>
-                        <div className = "text-left">
-                            <h4 className="font-semibold text-lg">Project Management</h4>
-                            <p className="text-muted-foreground"> Leading projects from conception to completion with agile methodologies. </p>
+                <div className="gradient-border px-6 py-3 card-hover">
+                    <div className="flex items-start gap-4">
+                        {/* Círculo 40×40, crop central e recorte em círculo */}
+                        <div
+                        className="
+                            w-10 h-10 
+                            rounded-full
+                            bg-center 
+                            bg-cover 
+                            bg-[url('/esas.jpeg')]
+                            bg-primary/10
+                        "
+                        />
+                        <div className="text-left">
+                        <h4 className="font-semibold text-lg">ESAS - High Scool Degree </h4>
+                        <p className="text-muted-foreground">
+                            Science and Technology.
+                        </p>
+                        <p className="text-muted-foreground">
+                            Final Grade: 17.
+                        </p>
                         </div>
                     </div>
                 </div>
