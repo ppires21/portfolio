@@ -16,11 +16,11 @@ export const AboutSection = () => {
                 </h3>
 
                 <p className="text-muted-foreground">
-                    I am a student of Information Systems Engineering and Management, passionate about software development and eager to explore multiple facets of technology while crafting innovative solutions.
+                    I recently graduated with a degree in Information Systems Engineering and Management and am now exploring diverse areas of technology. I quickly adapt to new concepts and consistently strive for excellence in every project I undertake. My passion for problem-solving and collaboration drives my strong performance.
                 </p>
 
                 <p className="text-muted-foreground">
-                    I grasp new concepts effortlessly and consistently strive for perfection in everything I undertake.
+                    During my studies, I developed a strong interest in data analytics and backend development, as well as infrastructure and system architecture.
                 </p>
 
 
@@ -62,7 +62,7 @@ export const AboutSection = () => {
                             Information Systems Engineer.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 17
+                            Actual Grade: 17/20
                         </p>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ export const AboutSection = () => {
                             Information Systems Engineering and Management.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 16
+                            Final Grade: 16/20
                         </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export const AboutSection = () => {
                             Science and Technology.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 17
+                            Final Grade: 17/20
                         </p>
                         </div>
                     </div>
