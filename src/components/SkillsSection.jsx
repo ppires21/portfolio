@@ -80,9 +80,9 @@ const categories = ["frontend", "backend", "data", "tools"];
 // const categories = ["all", "frontend", "backend", "data", "tools"];
 
 export const SkillsSection = () => {
-    const [activeCategory, setActiveCategory] = useState("backend");
+    const [activeCategory, setActiveCategory] = useState("data");
     const filteredSkills = skills.filter(
-        (skill) => activeCategory === "backend" || skill.category === activeCategory
+        (skill) => skill.category === activeCategory
     );
 
     return (
