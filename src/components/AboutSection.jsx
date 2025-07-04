@@ -62,7 +62,7 @@ export const AboutSection = () => {
                             Information Systems Engineer.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 17.
+                            Final Grade: 17
                         </p>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ export const AboutSection = () => {
                             Information Systems Engineering and Management.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 16.
+                            Final Grade: 16
                         </p>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export const AboutSection = () => {
                             Science and Technology.
                         </p>
                         <p className="text-muted-foreground">
-                            Final Grade: 17.
+                            Final Grade: 17
                         </p>
                         </div>
                     </div>
