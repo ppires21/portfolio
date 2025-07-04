@@ -19,7 +19,7 @@ const projects = [
     title: "Microservices-Based Online Bookstore",
     description: "A monolithic Java Spring Boot bookstore refactored into a distributed microservices architecture. Implements independent services for authentication, catalog, cart and orders, leverages CQRS and Saga patterns, containerised with Docker and was deployed on Oracle Cloud Infrastructure in the past for scalability and resilience (not currently running).",
     image: "/projects/project2.png",
-    tags: ["Java", "Java SpringBoot", "JavaScript"],
+    tags: ["Java", "Java SpringBoot", "JavaScript", "MySQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/ppires21/MicroServices_Bookstore"
   },
