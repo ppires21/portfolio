@@ -62,7 +62,7 @@ export const AboutSection = () => {
                             Information Systems Engineering.
                         </p>
                         <p className="text-muted-foreground">
-                            Actual Grade: 17/20
+                            Current Grade: 17/20
                         </p>
                         </div>
                     </div>
