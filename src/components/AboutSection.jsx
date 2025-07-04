@@ -59,7 +59,7 @@ export const AboutSection = () => {
                         <div className="text-left">
                         <h4 className="font-semibold text-lg">Uminho - Master Degree </h4>
                         <p className="text-muted-foreground">
-                            Information Systems Engineer.
+                            Information Systems Engineering.
                         </p>
                         <p className="text-muted-foreground">
                             Actual Grade: 17/20
