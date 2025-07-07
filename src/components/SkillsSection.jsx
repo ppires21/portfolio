@@ -5,9 +5,9 @@ const skills = [
     // Frontend
     { name: "HTML/CSS", level: 95, category: "frontend" },
     { name: "JavaScript", level: 90, category: "frontend" },
+    { name: "React", level: 75, category: "frontend" },
     { name: "Vue.js", level: 75, category: "frontend" },
     { name: "Bootstrap", level: 80, category: "frontend" },
-    { name: "Figma", level: 70, category: "frontend" },
 
     // Backend
     { name: "Java", level: 90, category: "backend" },
@@ -18,7 +18,7 @@ const skills = [
     { name: "SQL", level: 85, category: "backend" },
     { name: "MySQL", level: 80, category: "backend" },
     { name: "Assembly", level: 40, category: "backend" },
-    { name: "Go", level: 50, category: "backend" },
+    // { name: "Go", level: 50, category: "backend" },
 
     // Data & BI
     { name: "Python", level: 80, category: "data" },
@@ -44,6 +44,7 @@ const skills = [
     { name: "Outsystems", level: 50, category: "tools" },
     { name: "NGINX", level: 70, category: "tools" },
     { name: "XigmaNAS", level: 65, category: "tools" },
+    { name: "Figma", level: 70, category: "frontend" },
 
     // Segurança
     //{ name: "Wireshark", level: 70, category: "security" },
@@ -116,6 +117,7 @@ export const SkillsSection = () => {
                             <div className="text-left mb-4">
                                 <h3 className="font-semibold text-lg">{skill.name}</h3>
                             </div>
+                            {/*
                             <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                                 <div
                                     className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out"
@@ -125,6 +127,7 @@ export const SkillsSection = () => {
                             <div className="text-right mt-1">
                                 <span className="text-sm text-muted-foreground">{skill.level}%</span>
                             </div>
+                            */}
                         </div>
                     ))}
                 </div>

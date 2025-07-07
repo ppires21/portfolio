@@ -21,7 +21,6 @@ export const Home = ()  => {
     {/*---------- Navbar ---------*/}
     <Navbar />
 
-
     {/*---------- Main Content ---------*/}
     <main>
         <HeroSection />
@@ -32,7 +31,6 @@ export const Home = ()  => {
     </main>
 
     {/*---------- Footer ---------*/}
-
     <Footer />
 
     </div>
