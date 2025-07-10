@@ -24,6 +24,7 @@ export const HeroSection = () => {
                             bg-primary/10
                             mt-3
                             mb-5
+                            border border-[rgb(124,109,217)] rounded-2xl
                         "
                         />
                 </div>

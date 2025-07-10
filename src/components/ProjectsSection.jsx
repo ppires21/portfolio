@@ -84,11 +84,11 @@ export const ProjectsSection = () => {
                     Web Projects
                 </h4>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
                    {webprojects.map((project, key) => (
                     <div
                         key={key}
-                        className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col"
+                        className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col border border-[rgb(124,109,217)] rounded-2xl"
                     >
                         <div className="h-48 overflow-hidden">
                         <img
@@ -140,7 +140,7 @@ export const ProjectsSection = () => {
                    {dataMLIAprojects.map((project, key) => (
                     <div
                         key={key}
-                        className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col"
+                        className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col border border-[rgb(124,109,217)] rounded-2xl"
                     >
                         <div className="h-48 overflow-hidden">
                         <img

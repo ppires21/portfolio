@@ -43,7 +43,7 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 gap-6">
 
-                <div className="gradient-border px-6 py-3 card-hover">
+                <div className="gradient-border px-6 py-3 card-hover border border-[rgb(124,109,217)] rounded-2xl">
                     <div className="flex items-start gap-4">
                         {/* Círculo 40×40, crop central e recorte em círculo */}
                         <div
@@ -71,7 +71,7 @@ export const AboutSection = () => {
 
 
 
-                <div className="gradient-border px-6 py-3 card-hover">
+                <div className="gradient-border px-6 py-3 card-hover border border-[rgb(124,109,217)] rounded-2xl">
                     <div className="flex items-start gap-4">
                         {/* Círculo 40×40, crop central e recorte em círculo */}
                         <div
@@ -96,7 +96,7 @@ export const AboutSection = () => {
                     </div>
                 </div>
 
-                <div className="gradient-border px-6 py-3 card-hover">
+                <div className="gradient-border px-6 py-3 card-hover border border-[rgb(124,109,217)] rounded-2xl">
                     <div className="flex items-start gap-4">
                         {/* Círculo 40×40, crop central e recorte em círculo */}
                         <div

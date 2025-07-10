@@ -34,7 +34,7 @@ useEffect( () =>{
                 <a className = "text-xl font-bold text-primary flex items-center" href="#hero">
                     <span className = "relative z-10">
                         {" "}
-                        <span className = "text-glow text-foreground"> Pedro Pires </span> Developer
+                        P<span className = "text-glow text-foreground">edro Pires  </span>P<span className = "text-glow text-foreground">ires</span>  P<span className = "text-glow text-foreground">ortfolio</span>
                     </span>
                 </a>
 
