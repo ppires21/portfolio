@@ -77,7 +77,7 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience. 
+                    Here are some of my recent projects. Each project was carefully crafted with attention to detail and user experience. 
                 </p>
 
                 <h4 className="text-xl md:text-2xl font-bold mb-5 text-center"> 
